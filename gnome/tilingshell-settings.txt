@@ -1,0 +1,14 @@
+[/]
+cycle-layouts-backward=['<Shift>']
+edge-tiling-mode='default'
+enable-blur-selected-tilepreview=true
+enable-blur-snap-assistant=true
+enable-tiling-system=true
+enable-window-border=false
+inner-gaps=uint32 32
+outer-gaps=uint32 32
+selected-layouts=[['Layout 4'], ['Layout 4'], ['Layout 4']]
+snap-assist-sync-layout=true
+snap-assistant-animation-time=uint32 180
+window-border-color='rgb(58,148,74)'
+window-use-custom-border-color=false

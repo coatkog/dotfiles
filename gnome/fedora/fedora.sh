@@ -7,7 +7,7 @@ sudo dnf upgrade
 # system - directories
 mkdir -p ~/source/repos
 
-# TODO add github ssh keys and clone setup repository
+# TODO add github ssh keys and clone dotfiles repository
 
 # system - shortcuts
 # TODO
@@ -62,10 +62,9 @@ sudo dnf remove gnome-shell-extension*
 # TODO set outer gaps to 16
 
 # system - apps
-sudo dnf install blackbox-terminal \
-		 gnome-console \
+sudo dnf install gnome-console \
                  gnome-tweaks \
-		 google-chrome-stable \
+                 google-chrome-stable \
                  neovim
 sudo dnf remove yelp
 

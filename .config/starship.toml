@@ -1,6 +1,52 @@
+palette = "coatkog"
+
+format = "[╭](fg:primary)$all$fill$cmd_duration$time$line_break$character"
+
+[palettes.coatkog]
+primary = "#ad103d"
+secondary = "#e44e67"
+vibrant_orange = "#ff9800"
+amber = "#ffc107"
+deep_blue = "#3f51b5"
+
 [character]
-success_symbol = '[➜ ](bold green)'
-error_symbol = '[➜ ](bold red)'
+success_symbol = "[╰➜](primary)"
+error_symbol = "[╰×](red)"
 
 [directory]
+style = "bg:primary fg:white"
+format = "[](fg:primary)[$path]($style)[$read_only]($style)[](fg:primary) "
 truncation_length = 0
+
+[fill]
+symbol = " "
+
+[cmd_duration]
+style = "bg:white fg:black"
+format = "[](fg:white)[$duration]($style)[](fg:white) "
+min_time = 1000
+
+[time]
+style = "bg:amber fg:black"
+format = "[](fg:amber)[$time]($style)[](fg:amber)"
+disabled = false
+
+[git_branch]
+style = "bg:secondary fg:white"
+format = "[](fg:secondary)[$branch(:$remote_branch)]($style)[](fg:secondary) "
+
+[git_status]
+style = "bg:secondary fg:white"
+format = "([](fg:secondary)[$all_status$ahead_behind]($style)[](fg:secondary)) "
+
+[python]
+style = "bg:amber fg:black"
+format = "[](fg:amber)[${symbol}${pyenv_prefix}(${version})]($style)[](fg:amber) ([](fg:vibrant_orange)[$virtualenv](bg:vibrant_orange fg:black)[](fg:vibrant_orange)) "
+
+[package]
+style = "bg:vibrant_orange fg:black"
+format = "[](fg:vibrant_orange)[$symbol$version]($style)[](fg:vibrant_orange) "
+
+[dart]
+style = "bg:deep_blue fg:white" 
+format = "[](fg:deep_blue)[$symbol($version)]($style)[](fg:deep_blue) "
