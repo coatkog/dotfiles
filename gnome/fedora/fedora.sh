@@ -65,7 +65,9 @@ sudo dnf remove gnome-shell-extension*
 sudo dnf install gnome-console \
                  gnome-tweaks \
                  google-chrome-stable \
-                 neovim
+                 neovim \
+                 lsd \
+                 bat
 sudo dnf remove yelp
 
 # TODO add flatpak apps

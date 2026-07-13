@@ -11,6 +11,8 @@ plugins=(
 source $ZSH/oh-my-zsh.sh
 
 alias src="cd ~/source"
+alias cat="bat"
+alias ls="lsd"
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 
