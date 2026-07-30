@@ -16,11 +16,11 @@ error_symbol = "[╰×](red)"
 
 [username]
 style_user = "bg:white fg:black"
-format = "[](fg:white)[$user]($style)[](fg:white)"
+format = "[](fg:white)[$user]($style)[](fg:white) "
 
 [hostname]
 style = "bg:lush_paradise_green fg:white"
-format = "[](fg:lush_paradise_green)[$ssh_symbol$hostname]($style)[](fg:lush_paradise_green)"
+format = "[](fg:lush_paradise_green)[$ssh_symbol$hostname]($style)[](fg:lush_paradise_green) "
 
 [directory]
 style = "bg:primary fg:white"
