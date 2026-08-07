@@ -1,0 +1,14 @@
+Applications:
+  - Application Name: Desktop
+    Do Command: gdctl set -LpM DP-1 -t normal -m 2560x1440@119.998
+    Undo Command: gdctl set -LpM DP-1 -t normal -m 3440x1440@164.890
+  - Application Name: Steam 1080p
+    Do Command: gdctl set -LpM DP-1 -t normal -m 1920x1080@119.879
+    Undo Command:
+      - flatpak kill com.valvesoftware.Steam
+      - gdctl set -LpM DP-1 -t normal -m 3440x1440@164.890
+  - Application Name: Steam 1440p
+    Do Command: gdctl set -LpM DP-1 -t normal -m 2560x1440@119.998
+    Undo Command:
+      - flatpak kill com.valvesoftware.Steam
+      - gdctl set -LpM DP-1 -t normal -m 3440x1440@164.890
