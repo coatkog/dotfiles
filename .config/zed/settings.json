@@ -1,0 +1,38 @@
+{
+  "cli_default_open_behavior": "existing_window",
+  "diff_view_style": "split",
+  "project_panel": {
+    "dock": "left"
+  },
+  "outline_panel": {
+    "dock": "left"
+  },
+  "collaboration_panel": {
+    "dock": "left"
+  },
+  "agent": {
+    "dock": "right",
+    "favorite_models": [],
+    "model_parameters": []
+  },
+  "git_panel": {
+    "group_by": "none",
+    "tree_view": true,
+    "dock": "left"
+  },
+  "ui_font_family": ".SystemUIFont",
+  "ui_font_size": 16.0,
+  "buffer_font_family": "IosevkaTkog Nerd Font",
+  "buffer_line_height": "standard",
+  "buffer_font_size": 16.0,
+  "theme": {
+    "mode": "dark",
+    "light": "One Light",
+    "dark": "VSCode Dark Modern"
+  },
+  "icon_theme": "Material Icon Theme",
+  "autosave": "off",
+  "format_on_save": "off",
+  "remove_trailing_whitespace_on_save": false,
+  "wrap_guides": [80, 100, 120]
+}
